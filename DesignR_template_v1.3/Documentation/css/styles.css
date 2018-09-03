@@ -73,12 +73,15 @@ td#pink {
 .panel-title{
     font-size:21px;
 }
+.svgContainer{
+    width: 100%;
+}
+
 
 #sidebar .panel-heading {
     padding:15px 30px;
     text-align:left;
 }
-
 
 #sidebar .panel-body{
     padding:15px 0;
