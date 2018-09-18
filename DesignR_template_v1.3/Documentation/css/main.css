@@ -7637,3 +7637,10 @@ input[type="color"]:focus,
 .affix {
   position: fixed;
 }
+
+/* My additional css */
+
+.icon-box-title{
+  width: 75px;
+  height: 75px;
+}

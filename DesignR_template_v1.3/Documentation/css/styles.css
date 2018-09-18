@@ -77,6 +77,16 @@ td#pink {
     width: 100%;
 }
 
+.icon-box-title {
+    width: 75px;
+    height: 75px;
+}
+
+svg{
+    width: 70%;
+    margin:auto;
+    display: block;
+}
 
 #sidebar .panel-heading {
     padding:15px 30px;
@@ -130,4 +140,9 @@ td#pink {
   #sidebar .affix {
     width: 263px;
   }
+}
+
+.icon-box-title {
+    width: 75px;
+    height: 75px;
 }
