@@ -358,10 +358,10 @@ header.jumbotron{
 
 .jumbotron .message-box{
     width:90%;
-    margin:300px auto 0;
-	background:#fff;
-    background:rgba(255,255,255,0.9);
-    padding:20px 0;
+    margin: 576px auto;
+	/* background:#fff; */
+    /* background:rgba(255,255,255,0.9); */
+    /* padding:20px 0; */
 }
 
 .jumbotron .left-col{
@@ -561,10 +561,10 @@ header.jumbotron{
     text-decoration:none;
 }
 
-#about img {
+/* #about img {
     box-shadow:12px 0px 0px 12px rgba(255,255,255,0.2),
                 -12px 0px 0px 12px rgba(255,255,255,0.2);
-}
+} */
 
 /*-----------------------
 ------Skills Styles-------
@@ -771,8 +771,8 @@ header.jumbotron{
     top:0;
     left:0;
     background:transparent;
-    border:0px solid rgba(255,255,255,0.2);
-    -webkit-transition:border 0.3s ease-out;
+    /* border:0px solid rgba(255,255,255,0.2); */
+    /* -webkit-transition:border 0.3s ease-out; */
     transition:border 0.3s ease-out;
 }
 
