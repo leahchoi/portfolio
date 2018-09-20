@@ -11,3 +11,12 @@ svg{
 .about-me-par {
     width: 100%;
 }
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img{
+    max-height: 0%;
+    height: 253.76px;
+}
