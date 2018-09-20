@@ -473,7 +473,7 @@
 					<img width="350" height="253.76" class="img-responsive project-image" src="assets/projects/smallmealsforme.png" alt="">
 					<!--Project thumb -->
 
-					<div class="hover-mask">
+					<div class="hover-mask" onclick="addVideoLink()">
 						<h2 class="project-title">Meals for Me</h2>
 						<!--Project Title -->
 							<p>Recipe Finder Application</p>
@@ -655,7 +655,7 @@
 
 						<div class="left-col">
 							<!-- <img class="img-responsive" src="assets/imac.png" alt=""> -->
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/nWP_u-SIsrc" allow="autoplay; encrypted-media"
+							<iframe width="560" height="315" class= 'modalVideoLink' allow="autoplay; encrypted-media"
 							 allowfullscreen></iframe>
 							<!-- <div class="loader"></div> -->
 							<!-- <div class="image-wrapper"></div> -->
@@ -840,6 +840,11 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>
 		window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')
+	</script>
+	<script>
+		function addVideoLink() {
+			document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+		}
 	</script>
 
 	<script src="js/libs/bootstrap.min.js"></script>
