@@ -138,6 +138,7 @@ $(document).ready(function() {
 		
 		slidesHtml = slidesHtml + '</ul>';
 		
+		$('.modalVideoLink').attr('src', link);
 
 		$('#project-modal').on('show.bs.modal', function () {
 			$(this).find('h1').text(title);
