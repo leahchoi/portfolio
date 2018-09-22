@@ -20,3 +20,15 @@ svg{
     max-height: 0%;
     height: 253.76px;
 }
+
+.modal-body > .left-col{
+    width: 100%;
+    text-align: center;
+}
+.modal-body>h1, .project-descr {
+    text-align: center;
+}
+
+.project-descr > ul {
+    list-style-type:none;
+}
