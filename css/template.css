@@ -8,10 +8,6 @@ svg{
     opacity: 1;
 }
 
-.about-me-par {
-    width: 100%;
-}
-
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
@@ -42,4 +38,12 @@ svg{
 
 .modal-dialog {
     width: 50%;
+}
+
+.pic-container > .my-pic {
+    height: auto;
+}
+
+.about-me-par {
+    margin-left: 0px;
 }
