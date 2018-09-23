@@ -32,3 +32,14 @@ svg{
 .project-descr > ul {
     list-style-type:none;
 }
+.project-descr ul{
+    padding: 0;
+}
+.project-descr{
+    width: 64%;
+    margin: 0 auto !important;
+}
+
+.modal-dialog {
+    width: 50%;
+}
