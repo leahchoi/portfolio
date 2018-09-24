@@ -21,7 +21,7 @@ svg{
     width: 100%;
     text-align: center;
 }
-.modal-body>h1, .project-descr {
+.project-descr {
     text-align: center;
 }
 
@@ -40,10 +40,32 @@ svg{
     width: 50%;
 }
 
-.pic-container > .my-pic {
+/* .pic-container > .my-pic {
     height: auto;
-}
+} */
 
 .about-me-par {
     margin-left: 0px;
+    display: contents;
+}
+
+.pic-container {
+    margin-left: 0px;
+    margin: 8rem 0;
+}
+
+.my-pic {
+    height: 321px;
+}
+
+.about-me-par > p {
+    display: block;
+}
+
+.modal-body>h1 {
+    text-align: left;
+}
+
+.form-control{
+    font-size: 2rem !important;
 }

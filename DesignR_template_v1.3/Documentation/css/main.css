@@ -320,7 +320,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #18bc9c;
+  color: #F5F5F5;
   text-decoration: underline;
 }
 
@@ -1760,14 +1760,14 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-  background-color: #18bc9c;
+  background-color: #4e342e;
 }
 
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
 .table-hover > tbody > tr.success:hover > th {
-  background-color: #15a589;
+  background-color: #4e342e;
 }
 
 .table > thead > tr > td.danger,
@@ -2509,8 +2509,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #13987e;
-  border-color: #11866f;
+  background-color: #4e342e;
+  border-color: #4e342e;
 }
 
 .btn-success:active,
@@ -2534,14 +2534,14 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  background-color: #4e342e;
+  border-color: #4e342e;
 }
 
 .btn-info {
   color: #ffffff;
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #4e342e;
+  border-color: #4e342e;
 }
 
 .btn-info:hover,
@@ -2550,8 +2550,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #2383c4;
-  border-color: #2077b2;
+  background-color: #4e342e;
+  border-color: #4e342e;
 }
 
 .btn-info:active,
@@ -2575,13 +2575,13 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #3498db;
-  border-color: #3498db;
+  background-color: #4e342e;
+  border-color: #4e342e;
 }
 
 .btn-link {
   font-weight: normal;
-  color: #18bc9c;
+  color: #4e342e;
   cursor: pointer;
   border-radius: 0;
 }
@@ -2604,7 +2604,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-  color: #18bc9c;
+  color: #4e342e;
   text-decoration: underline;
   background-color: transparent;
 }
