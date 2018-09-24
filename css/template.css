@@ -65,3 +65,23 @@ svg{
 .form-control{
     font-size: 2rem !important;
 }
+
+.contact-section {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.socials {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.h3-contact,
+.h4-contact {
+    text-align: center;
+    color: white;
+}
+
+.section-title {
+    margin-bottom: 5rem !important;
+}
