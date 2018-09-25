@@ -105,3 +105,10 @@ svg{
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+#checkers-box {
+    width: 462px !important;
+    height: 350px !important;
+    margin: auto !important;
+
+}
