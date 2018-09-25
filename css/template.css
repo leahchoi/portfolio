@@ -1,10 +1,10 @@
-svg{
+svg {
     display: block;
     margin: 6%;
     width: 75%;
 }
 
-.section-title .scrollimation .in{
+.section-title .scrollimation .in {
     opacity: 1;
 }
 
@@ -12,26 +12,29 @@ svg{
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
-.thumbnail>img{
+.thumbnail>img {
     max-height: 0%;
     height: 253.76px;
 }
 
-.modal-body > .left-col{
+.modal-body>.left-col {
     width: 100%;
     text-align: center;
 }
+
 .project-descr {
     text-align: center;
 }
 
-.project-descr > ul {
-    list-style-type:none;
+.project-descr>ul {
+    list-style-type: none;
 }
-.project-descr ul{
+
+.project-descr ul {
     padding: 0;
 }
-.project-descr{
+
+.project-descr {
     width: 64%;
     margin: 0 auto !important;
 }
@@ -54,15 +57,15 @@ svg{
     height: 321px;
 }
 
-.about-me-par > p {
+.about-me-par>p {
     display: block;
 }
 
 .modal-body>h1 {
-    text-align: left;
+    text-align: center;
 }
 
-.form-control{
+.form-control {
     font-size: 2rem !important;
 }
 
@@ -86,7 +89,7 @@ svg{
     margin-bottom: 5rem !important;
 }
 
-#projects-container{
+#projects-container {
     height: 383px;
 }
 
@@ -94,14 +97,16 @@ svg{
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
-.thumbnail>img{
+.thumbnail>img {
     height: 383px;
 }
+
 .img-responsive .project-image {
     width: 100%;
     height: 100%;
 }
-.app-pic{
+
+.app-pic {
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -112,3 +117,4 @@ svg{
     margin: auto !important;
 
 }
+
