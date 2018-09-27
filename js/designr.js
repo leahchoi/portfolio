@@ -79,14 +79,14 @@ $(document).ready(function() {
 
 		$('#projects-container').css({visibility:'visible'});
 
-		$('#projects-container').masonry({
-			itemSelector: '.project-item:not(.filtered)',
-			columnWidth:350,
-			isFitWidth: true,
-			isResizable: true,
-			isAnimated: !Modernizr.csstransitions,
-			gutterWidth: 0
-		});
+		// $('#projects-container').masonry({
+		// 	itemSelector: '.project-item:not(.filtered)',
+		// 	columnWidth:350,
+		// 	isFitWidth: true,
+		// 	isResizable: true,
+		// 	isAnimated: !Modernizr.csstransitions,
+		// 	gutterWidth: 0
+		// });
 
 		scrollSpyRefresh();
 		waypointsRefresh();
