@@ -89,17 +89,17 @@ svg {
     margin-bottom: 5rem !important;
 }
 
-#projects-container {
+/* #projects-container {
     height: 383px;
-}
+} */
 
-.carousel-inner>.item>a>img,
+/* .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     height: 383px;
-}
+} */
 
 .img-responsive .project-image {
     width: 100%;
@@ -111,9 +111,66 @@ svg {
     margin-right: auto !important;
 }
 
-#checkers-box {
+/* #checkers-box {
     width: 462px !important;
     height: 350px !important;
     margin: auto !important;
 
+} */
+
+.container .projects-wrapper {
+    width: 70%;
+}
+
+/*  */
+.about-me-wrapper,
+.projects-wrapper,
+.contact-wrapper {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.contact-wrapper {
+    margin-bottom: 4rem;
+}
+
+/* .about-me-img {
+    margin-bottom: 2rem;
+}
+
+.about-me {
+    font-family: 'Raleway', sans-serif;
+    vertical-align: middle;
+} */
+
+
+.checkers-wrapper,
+.meals-wrapper,
+.mboutique-wrapper {
+    margin-top: 10rem;
+}
+
+.checkers-wrapper {
+    margin-top: 5rem;
+}
+
+.tech-wrapper {
+    margin-top: 20rem;
+}
+
+#projects-container{
+    width: auto !important;
+}
+
+.github-button{
+    transition-duration: 0.4s;
+    border: solid 1px darkgray;
+    color: black;
+}
+
+.github-button:hover {
+    background-color: #c1a09a;
+    /* Green */
+    color: white;
 }
