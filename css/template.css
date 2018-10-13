@@ -173,3 +173,19 @@ svg {
     /* Green */
     color: white;
 }
+
+#skills {
+    height: 87vh;
+}
+
+#contact {
+    height: 90vh;
+}
+
+#contact-container {
+    margin-top: 7vh;
+}
+
+#skills-container {
+    margin-top: 6vh;
+}
