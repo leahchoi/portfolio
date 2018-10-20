@@ -190,8 +190,6 @@ $(document).ready(function() {
 	  "showInteraction": true
 	};
 	
-	twitterFetcher.fetch(configTweets);
-
 	function handleTweets(tweets){
 	
 		var x = tweets.length,
