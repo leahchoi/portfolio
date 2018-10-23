@@ -100,7 +100,7 @@ svg {
 }
 
 .container .projects-wrapper {
-    width: 70%;
+    width: 95%;
 }
 
 /*  */
@@ -169,4 +169,41 @@ svg {
 
 #skills-container {
     margin-top: 6vh;
+}
+
+video {
+    width: 40%;
+    height: 40%;
+}
+
+.img-wrapper> h1,
+.img-wrapper>h2{
+    display: inline;
+}
+
+.meals-video{
+    width: 40%;
+}
+
+.meals-descr{
+    width: 40.6%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+}
+
+.meals-tech{
+    display: inline-block;
+    margin-left: -41%;
+    vertical-align: bottom;
+}
+
+.meals-tech > h2 {
+    font-weight: lighter;
+}
+
+.meals-tech > ul {
+    list-style: none;
+    padding: 0%;
+    margin-bottom: 23% !important;
 }
