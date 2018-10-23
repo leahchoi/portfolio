@@ -185,25 +185,29 @@ video {
     width: 40%;
 }
 
-.meals-descr{
+.descr{
     width: 40.6%;
     display: inline-block;
     vertical-align: top;
     margin-left: 18px;
 }
 
-.meals-tech{
+.tech{
     display: inline-block;
     margin-left: -41%;
     vertical-align: bottom;
 }
 
-.meals-tech > h2 {
+.tech > h2 {
     font-weight: lighter;
 }
 
-.meals-tech > ul {
+.tech > ul {
     list-style: none;
     padding: 0%;
     margin-bottom: 23% !important;
+}
+
+.checkers-video{
+    width: 45%;
 }
