@@ -1,7 +1,7 @@
 svg {
     display: block;
     margin: 6%;
-    width: 75%;
+    width: 49%;
 }
 
 .section-title .scrollimation .in {
@@ -49,16 +49,17 @@ svg {
 }
 
 .pic-container {
-    margin-left: 0px;
-    margin: 8rem 0;
+    /* margin-left: 0px;
+    margin: 8rem 0; */
 }
 
 .my-pic {
     height: 321px;
+    border-radius: 50%;
 }
 
 .about-me-par>p {
-    display: block;
+    display: flex;
 }
 
 .modal-body>h1 {
@@ -100,7 +101,7 @@ svg {
 }
 
 .container .projects-wrapper {
-    width: 95%;
+    width: 85%;
 }
 
 /*  */
@@ -139,11 +140,11 @@ svg {
     margin-top: 20rem;
 }
 
-#projects-container{
-    width: auto !important;
+#projects-container {
+    width: 70%;
 }
 
-.github-button{
+.github-button {
     transition-duration: 0.4s;
     border: solid 1px darkgray;
     color: black;
@@ -156,7 +157,8 @@ svg {
 
 #skills {
     padding-bottom: 90px;
-    padding-top: 90px; 
+    background-color: #f5f5f5;
+    padding-top: 2%;
 }
 
 #contact {
@@ -172,42 +174,94 @@ svg {
 }
 
 video {
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    margin-top: 3%;
 }
 
-.img-wrapper> h1,
-.img-wrapper>h2{
+.img-wrapper {
+    margin-top: 3%;
+}
+
+.img-wrapper>h1,
+.img-wrapper>h2 {
     display: inline;
 }
 
-.meals-video{
+.meals-video {
     width: 40%;
+    display: block;
+    margin: 0 auto;
 }
 
-.descr{
+.descr {
     width: 40.6%;
     display: inline-block;
     vertical-align: top;
     margin-left: 18px;
 }
 
-.tech{
+.tech {
     display: inline-block;
+}
+
+.meals-tech {
     margin-left: -41%;
     vertical-align: bottom;
 }
 
-.tech > h2 {
+.tech>h2 {
     font-weight: lighter;
 }
 
-.tech > ul {
+.tech>ul {
     list-style: none;
     padding: 0%;
     margin-bottom: 23% !important;
 }
 
-.checkers-video{
-    width: 45%;
+.checkers-video {
+    display: block;
+    margin: 0 auto;
+    /* width: 80%; */
+}
+
+.checkers-descr {
+    text-align: right;
+}
+
+.checkers-descr>p {
+    font-size: 14px;
+}
+
+.checkers-descr>h1 {
+    display: inline;
+}
+
+.budgety-video {
+    display: block;
+    margin: 0 auto;
+    /* width: 80%; */
+}
+
+.omnifood-video {
+    display: block;
+    margin: 0 auto;
+    /* width: 80%; */
+}
+
+.resume-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .resume-btns > .btn {
+    border: #c1a09a 2px solid;
+} */
+
+.col-md-9 {
+    margin-bottom: 6%;
+}
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705))
 }
