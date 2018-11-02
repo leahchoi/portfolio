@@ -160,7 +160,7 @@ body {
 
 .btn-theme{
 	color:#fff;
-	background-color:#74c7d5;
+	background-color:#c1a09a;
 	padding:15px 90px;
 	font-size:24px;
 	font-weight:300;
@@ -174,7 +174,7 @@ body {
 .btn-theme:hover{
 	cursor:pointer;
 	color:#fff;
-	background-color:#90D2DD;
+	background-color:#e1d1cf;
 }
 
 .btn-theme:active,
@@ -190,9 +190,9 @@ body {
 
 .btn-theme.transparent{
 	color:#fff;
-	background-color:transparent;
+	background-color:#e1d1cf;
 	padding:14px 35px;
-	border:2px solid #fff;
+    border:2px solid #e1d1cf;
 	font-weight:400;
 	-webkit-transition:all 0.3s ease-out;
 	transition:all 0.3s ease-out;
@@ -537,7 +537,7 @@ header.jumbotron{
 }
 
 #about h1 {
-    color:#fff;
+    /* color:#fff; */
     font-size:36px;
     line-height:42px;
     font-weight:300;
