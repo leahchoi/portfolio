@@ -88,7 +88,7 @@ $(document).ready(function() {
 		// 	gutterWidth: 0
 		// });
 
-		scrollSpyRefresh();
+		// scrollSpyRefresh();
 		waypointsRefresh();
 	});
 
@@ -222,12 +222,12 @@ $(document).ready(function() {
 	/*============================================
 	Resize Functions
 	==============================================*/
-	$(window).resize(function(){
-		$('.jumbotron').height($(window).height());
-		$('.message-box').css({'marginTop':$(window).height()*0.4});
-		scrollSpyRefresh();
-		waypointsRefresh();
-	});
+	// $(window).resize(function(){
+	// 	$('.jumbotron').height($(window).height());
+	// 	$('.message-box').css({'marginTop':$(window).height()*0.4});
+	// 	scrollSpyRefresh();
+	// 	waypointsRefresh();
+	// });
 	
 	/*============================================
 	Backstretch Images
@@ -277,11 +277,11 @@ $(document).ready(function() {
 	/*============================================
 	Refresh scrollSpy function
 	==============================================*/
-	function scrollSpyRefresh(){
-		setTimeout(function(){
-			$('body').scrollspy('refresh');
-		},1000);
-	}
+	// function scrollSpyRefresh(){
+	// 	setTimeout(function(){
+	// 		$('body').scrollspy('refresh');
+	// 	},1000);
+	// }
 
 	/*============================================
 	Refresh waypoints function

@@ -100,7 +100,7 @@ svg {
 }
 
 .container .projects-wrapper {
-    width: 85%;
+    width: 100%;
 }
 
 /*  */
@@ -261,4 +261,50 @@ video {
 
 #contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705))
+}
+
+/* @media (max-width: 800px) {
+    .container .projects-wrapper {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .meals-video {
+        width: 100%;
+    }
+}
+
+; */
+
+@media (max-width: 768px) {
+
+    .meals-video {
+        width: 100%;
+    }
+}
+
+;
+
+@media (max-width: 990px){
+    .container .projects-wrapper {
+        width: 100%;
+}
+   video {
+       width: 100%;
+   }
+   .meals-video {
+       width: 75%;
+   }
+};
+
+@media (min-width: 992px) {
+   .container .projects-wrapper {
+       width: 100%;
+   }
+   video {
+       width: 80%;
+   }
 }
