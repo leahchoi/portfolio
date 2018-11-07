@@ -49,7 +49,7 @@ svg {
 }
 
 .pic-container {
-     margin-left: 0;
+    margin-left: 0;
 }
 
 .my-pic {
@@ -125,7 +125,7 @@ svg {
 } */
 
 
-.meals-wrapper{
+.meals-wrapper {
     margin-top: 2%;
 }
 
@@ -145,11 +145,27 @@ svg {
     transition-duration: 0.4s;
     border: solid 1px darkgray;
     color: black;
+    margin-left: 1%;
+    margin-top: 1%
+}
+
+.live-button {
+    transition-duration: 0.4s;
+    background-color: #c1a09a;
+    border: solid 1px darkgray;
+    color: #f4f4f4;
+    margin-top: 1%
+
 }
 
 .github-button:hover {
     background-color: #c1a09a;
     color: white;
+}
+
+.live-button:hover {
+    background-color: #a16f65;
+    color: #f4f4f4;
 }
 
 #skills {
@@ -288,23 +304,28 @@ video {
 
 ;
 
-@media (max-width: 990px){
+@media (max-width: 990px) {
     .container .projects-wrapper {
         width: 100%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .meals-video {
+        width: 75%;
+    }
 }
-   video {
-       width: 100%;
-   }
-   .meals-video {
-       width: 75%;
-   }
-};
+
+;
 
 @media (min-width: 992px) {
-   .container .projects-wrapper {
-       width: 100%;
-   }
-   video {
-       width: 80%;
-   }
+    .container .projects-wrapper {
+        width: 100%;
+    }
+
+    video {
+        width: 80%;
+    }
 }
