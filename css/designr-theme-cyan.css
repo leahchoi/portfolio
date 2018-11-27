@@ -2,7 +2,7 @@
 ---Main Layout Styles---
 ------------------------*/
 .img-center{
-    margin:62px auto;
+    margin:17px auto;
 }
 
 #main-nav a.ir-logo {
@@ -80,7 +80,7 @@ h1 {
 h1.section-title{
     position:relative;
     margin:0 0 124px;
-    font-size:48px;
+    font-size:40px;
     line-height:64px;
     font-weight:300;
     text-align:center;
@@ -145,7 +145,7 @@ a:focus,
 ---Main Color Styles----
 ------------------------*/
 body {
-	color:#999;
+	/* color:#999; */
 	overflow-x:hidden;
 }
 
@@ -189,11 +189,12 @@ body {
 
 
 .btn-theme.transparent{
+    border-radius: 5px;
 	color:#fff;
 	background-color: #c1a09a;
-	padding:14px 35px;
+	padding:12px 15px;
 	border:2px solid #fff;
-	font-weight:400;
+	font-weight:200;
 	-webkit-transition:all 0.3s ease-out;
 	transition:all 0.3s ease-out;
 }
@@ -358,7 +359,7 @@ header.jumbotron{
 
 .jumbotron .message-box{
     width:100%;
-    margin: 576px auto;
+    margin: 311.4px auto auto -165px;
 	/* background:#fff; */
     /* background:rgba(255,255,255,0.9); */
     /* padding:20px 0; */
@@ -398,9 +399,9 @@ header.jumbotron{
     display:inline-block;
     margin:0;
     padding:10px 30px 10px 5px;
-    font-size:110px;
+    font-size:85px;
     line-height:110px;
-    font-weight:900;
+    font-weight:700;
     text-transform:uppercase;
 }
 
@@ -451,7 +452,7 @@ header.jumbotron{
 } 
 
 #about .btn-theme.transparent {
-    font-size:18px;
+    font-size:15px;
     text-decoration:none;
 }
 

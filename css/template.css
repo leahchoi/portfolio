@@ -22,8 +22,16 @@ svg {
     text-align: center;
 }
 
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.505), rgba(0, 0, 0, 0.505))
+}
+
 .project-descr {
     text-align: center;
+}
+
+.message-box {
+    margin-top: 311.4px !important;
 }
 
 .project-descr>ul {
@@ -53,8 +61,7 @@ svg {
 }
 
 .my-pic {
-    height: 224px;
-    border-radius: 50%;
+    height: 400px;
 }
 
 .about-me-par>p {
@@ -200,12 +207,6 @@ video {
     display: inline;
 }
 
-.meals-video {
-    width: 38%;
-    display: block;
-    margin: 0 auto;
-}
-
 .descr {
     width: 40.6%;
     display: inline-block;
@@ -232,12 +233,6 @@ video {
     margin-bottom: 23% !important;
 }
 
-.checkers-video {
-    display: block;
-    margin: 0 auto;
-    /* width: 80%; */
-}
-
 .checkers-descr {
     text-align: right;
 }
@@ -250,16 +245,58 @@ video {
     display: inline;
 }
 
-.budgety-video {
-    display: block;
-    margin: 0 auto;
-    /* width: 80%; */
+.meals-video {
+    width: 33%;
 }
 
-.omnifood-video {
+.omnifood-video,
+.budgety-video,
+.meals-video,
+.checkers-video {
     display: block;
     margin: 0 auto;
     /* width: 80%; */
+        position:relative;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),
+        0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),
+        0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),
+        0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.omnifood-video:before, .omnifood-video:after,
+.budgety-video:before,
+.budgety-video:after,
+.meals-video:before,
+.meals-video:after,
+.checkers-video:before,
+.checkers-video:after {
+        content:"";
+        position:absolute;
+        z-index:-1;
+        -webkit-box-shadow:0 0 20px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow:0 0 20px rgba(0, 0, 0, 0.8);
+        box-shadow:0 0 20px rgba(0, 0, 0, 0.8);
+        top:0;
+        bottom:0;
+        left:10px;
+        right:10px;
+        -moz-border-radius:100px / 10px;
+        border-radius:100px / 10px;
+}
+
+.omnifood-video:after,
+.budgety-video:after,
+.meals-video:after,
+.checkers-video:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
 }
 
 .resume-btns {
