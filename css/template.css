@@ -150,27 +150,28 @@ svg {
 
 .github-button {
     transition-duration: 0.4s;
-    border: solid 1px darkgray;
-    color: black;
+        background-color: #c1a09a;
+        border: solid 1px darkgray;
+        color: #f4f4f4;
+
     margin-left: 1%;
     margin-top: 1%
 }
 
 .live-button {
     transition-duration: 0.4s;
-    background-color: #c1a09a;
     border: solid 1px darkgray;
-    color: #f4f4f4;
-    margin-top: 1%
-
+    color: black;
+    margin-top: 1%;
+    margin-bottom:5%
 }
 
-.github-button:hover {
+.live-button:hover {
     background-color: #c1a09a;
     color: white;
 }
 
-.live-button:hover {
+.github-button:hover {
     background-color: #a16f65;
     color: #f4f4f4;
 }
@@ -194,7 +195,7 @@ svg {
 }
 
 video {
-    width: 80%;
+
     margin-top: 3%;
 }
 
@@ -245,9 +246,9 @@ video {
     display: inline;
 }
 
-.meals-video {
+/* .meals-video {
     width: 33%;
-}
+} */
 
 .omnifood-video,
 .budgety-video,
@@ -332,16 +333,16 @@ video {
 
 ; */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .meals-video {
         width: 100%;
     }
-}
+} */
 
 ;
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .container .projects-wrapper {
         width: 100%;
     }
@@ -351,7 +352,7 @@ video {
     }
 
     .meals-video {
-        width: 75%;
+        width: 60%;
     }
 }
 
