@@ -1160,9 +1160,9 @@ header.jumbotron {
         line-height: 82px;
     }
 
-        .live-button {
-            width: auto
-        }
+    .live-button {
+        width: auto
+    }
 
     video {
         width: 80%;
@@ -1170,6 +1170,10 @@ header.jumbotron {
 
     .meals-video {
         width: 45%;
+    }
+
+    #about p {
+        padding: 0;
     }
 
 }
@@ -1209,6 +1213,7 @@ header.jumbotron {
     .meals-video {
         width: 60%;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -1297,6 +1302,13 @@ header.jumbotron {
         width: 80%;
     }
 
+    #about p {
+        padding: 0 2%;
+    }
+
+    #about h1 {
+        padding-left: 2%;
+    }
 }
 
 @media (max-width: 479px) {
