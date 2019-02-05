@@ -54,6 +54,10 @@ $(document).ready(function() {
 		smoothHeight: false
 	});
 
+	$('.navbar-toggle').on('click', function () {
+		$('#site-nav').toggleClass('collapse');
+	})
+
 	/*============================================
 	Skills Functions
 	==============================================*/
